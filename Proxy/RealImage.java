@@ -8,7 +8,6 @@ public class RealImage implements Image {
         this.name = name;
         loadImage();
     }
-
     // Simulate a heavy image load operation
     private void loadImage() {
         System.out.println("Loading high-resolution image: " + name);
